@@ -2,7 +2,7 @@ Group Members : Deepak Gowtham, Bikash Bhoi
 
 ### Serverless MobilenetV2 deployment on AWS Lambda
 
-#### Stpes:
+#### Steps:
 -  Create Linux environemnt
 -  Install 
   -  Docker
