@@ -1,4 +1,4 @@
-Group Memebers : Deepak Gowtham, Bikash Bhoi
+Group Members : Deepak Gowtham, Bikash Bhoi
 
 ### Serverless MobilenetV2 deployment on AWS Lambda
 
@@ -8,7 +8,7 @@ Group Memebers : Deepak Gowtham, Bikash Bhoi
   -  Docker
   - Node.js
   - Serverless Framework
-  - Python requirements Plugin (`**serverless-python-requirements**`)
+  - Python requirements Plugin (`serverless-python-requirements`)
 - Create IAM user and set up SLS with the user credentials
 - Create SLS Template
 - Create a s3 Bucket and Upload the pretrained model to the Bucket
