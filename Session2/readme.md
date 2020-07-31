@@ -55,5 +55,3 @@ Code Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/
 ![Class_2](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/Misclassified_2.jpg)
 
 ![Class_3](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/Misclassified_3.jpg)
-
-<img src="https://github.com/eip4-mars/EIP4P2/blob/master/Session2/Misclassified_3.jpg" width="2048">
