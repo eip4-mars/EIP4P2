@@ -2,11 +2,11 @@ Group Members : Deepak Gowtham, Bikash Bhoi
 
 
 
-### Explaining the code:
+#### 1. Explaining the code:
 
 Code Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/EVA4P2_Session2_Mobilenetv2_custom.ipynb)
 
-#### Steps: 
+##### Steps: 
 
 - Total Number of images against classes: 20732
   - Flying Birds : 8318
@@ -17,11 +17,11 @@ Code Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/
 - Created Custom Dataloader to write  test.csv and train.csv with image path and label [With 80-20 Split]
 - Store Label details in labels.csv
 - Used Train and test transforms and loaders with parametrized batch Size
-- 
 
 
 
-#### Resizing Strategy
+
+#### 2. Resizing Strategy
 
 - Images were directly read in Train/Test Loader
 - Resized the Image using transforms.Resize(224), Which will set the lesser dimension of the image to 224 Keeping the same aspect ratio
@@ -30,7 +30,7 @@ Code Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/
 
 
 
-#### Model :
+#### 3. Model :
 
 - Used MobilenetV2 with Imagenet weights
 - Changed last FC Layer to 1280 -> 4 from 1280 -> 1000
@@ -39,13 +39,13 @@ Code Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/
 
 
 
-#### Accuracy vs Epochs graphs for train and test curves
+#### 4. Accuracy vs Epochs graphs for train and test curves
 
 ![Accuracy](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/accuracy.jpg)
 
 
 
-#### 10 misclassified images for each of the classes as an Image Gallery
+#### 5. 10 misclassified images for each of the classes as an Image Gallery
 
 ![Class_0](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/Misclassified_0.jpg)
 
