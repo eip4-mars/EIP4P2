@@ -48,7 +48,7 @@ Code Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/
 #### 5. 10 misclassified images for each of the classes as an Image Gallery
 
 
-<img src="https://github.com/eip4-mars/EIP4P2/blob/master/Session2/Misclassified_0.jpg" alt="Class_0" width="2000" height="140">
+![Class_0](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/Misclassified_0.jpg)
 
 ![Class_1](https://github.com/eip4-mars/EIP4P2/blob/master/Session2/Misclassified_1.jpg)
 
