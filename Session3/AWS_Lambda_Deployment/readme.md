@@ -32,6 +32,8 @@
   - serverless.yml
   - package.json
   - faceBlendCommon.py
+  - renderFace.py
+  - shape_predictor_5_face_landmarks.dat
 
 - Deploy Model
 
