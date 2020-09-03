@@ -35,7 +35,11 @@
 
     `npm run deploy`
     
+- Once Deployed Successfully, Go to AWS Console -> API Gateway -> Click on newly created service -> Setting -> Binary Media Types -> Add following
+        
+    `*/*`
     
+    `multipart/form-data`
     
  
 
