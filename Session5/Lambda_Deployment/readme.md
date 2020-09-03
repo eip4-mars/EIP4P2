@@ -10,8 +10,7 @@
 
 ### Steps
 - Upload Files to Lambda and change Model_name/S3_BuckeT in handler.py/serverless.yml accordingly
-  - pose_resnet_50_256x256.pth.tar    [Link](https://drive.google.com/drive/folders/1IlwfPx3CpLJ44bX8laCaQGYMD7_Nqqpb?usp=sharing)
-  - 256x256_d256x3_adam_lr1e-3.yaml
+  - pose_resnet50_256x256.pt    [Link](https://drive.google.com/drive/folders/1IlwfPx3CpLJ44bX8laCaQGYMD7_Nqqpb?usp=sharing)
 - Create a serverless Template
 
     `sls create --template aws-python3 --path <DIR_NAME>`
