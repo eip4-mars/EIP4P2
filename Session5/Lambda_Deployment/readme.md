@@ -40,6 +40,6 @@
     `*/*`
     
     `multipart/form-data`
-    
+   ![](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/Lambda_Deployment/multiformdata.gif)
  
 
