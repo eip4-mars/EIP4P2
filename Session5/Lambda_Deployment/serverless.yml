@@ -1,0 +1,63 @@
+# Welcome to Serverless!
+# Happy Coding!
+
+service: sess5-hpe
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: ap-south-1
+  timeout: 60
+  environment:
+    S3_BUCKET: tsai-mars-session1
+    MODEL_PATH: pose_resnet50_256x256.pt
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - s3:getObject
+      Resource: arn:aws:s3:::tsai-mars-session1/*
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+    strip: false
+    noDeploy:
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - setuptools
+      - six
+      - tensorboard
+    useStaticCache: true
+    useDownloadCache: true
+    cacheLocation: "./cache"
+
+ 
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+    - cache/**
+    - test/**
+    - __pytest_cache__/**
+    - model/**
+
+functions:
+  hpe:
+    handler: handler.hpe
+    memorySize: 3008
+    timeout: 60
+    events:
+      - http:
+          path: hpeLine
+          method: post
+          cors: true
+
+plugins:
+  - serverless-python-requirements
