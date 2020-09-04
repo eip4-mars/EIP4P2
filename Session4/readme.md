@@ -6,7 +6,7 @@ Group Members : Deepak Gowtham, Bikash Bhoi
 #### Front-End Files : [https://github.com/eip4-mars/eip4-mars.github.io](https://github.com/eip4-mars/eip4-mars.github.io)
 
 ## Face Recognition
-[Imagenet Classes](https://github.com/eip4-mars/EIP4P2/blob/master/Session1/imagenet_classes.txt)
+
 #### Steps:
 - Click on the [Link](http://www.tsaimars.com.s3-website.ap-south-1.amazonaws.com/)
 - Click on Face Recognition on top Tab
