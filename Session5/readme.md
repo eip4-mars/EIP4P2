@@ -18,7 +18,8 @@
 ## Model Description : 
 
 The model used here is a Headless Resnet50 with Deconvolution Block to extract body landmarks.
-Draw.io can be imported from : [](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/Posenet_drawio.xml)
+
+Draw.io can be imported from : [xml file](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/Posenet_drawio.xml)
 
 
 ### Smaller BottleNeck Block (Residual Blocks)
