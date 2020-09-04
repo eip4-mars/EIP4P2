@@ -37,8 +37,8 @@ Output of ResNet50 Headless block is fed to this below block:
 ![](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/deconvBlock.jpg)
 
 
-## JointMSELoss:
-JointMSELoss is the average Mean Squared Error Loss between Predicted Heatmap and Ground Truth Heatmap across all Joints.
+## JointsMSELoss:
+JointsMSELoss is the average Mean Squared Error Loss between Predicted Heatmap and Ground Truth Heatmap across all Joints.
 
 In our case there are 16 Joints So,
 
