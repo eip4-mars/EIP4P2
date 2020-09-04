@@ -13,3 +13,24 @@
 #### Screenshot
 ---------
 ![](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/hpe_UI.jpg)
+
+
+## Model Description : 
+
+The model used here is a Headless Resnet50 with Deconvolution Block to extract body landmarks.
+Draw.io can be imported from : [](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/Posenet_drawio.xml)
+
+
+### Smaller BottleNeck Block (Residual Blocks)
+
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/bottleneck.jpg)
+
+### ResNet50 Headless architecture:
+Above Residual Blocks are used in this network architecture.
+
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/headlessResnet50.jpg)
+
+### Deconvolution Block:
+Output of ResNet50 Headless block is fed to this below block:
+
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/deconvBlock.jpg)
