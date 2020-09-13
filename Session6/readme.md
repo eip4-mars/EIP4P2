@@ -16,4 +16,4 @@ Notebook Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Sessi
 
 #### Screenshot
 ---------
-![](https://github.com/eip4-mars/EIP4P2/blob/master/Session4/fr_ss.jpg)
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session6/gan_car.jpg)
