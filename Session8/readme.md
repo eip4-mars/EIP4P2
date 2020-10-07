@@ -1,6 +1,6 @@
 Group Members : Deepak Gowtham, Bikash Bhoi
 
-Notebook Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session6/Sess6_Cars_DCGAN.ipynb)
+Notebook Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session8/Sess8_Drones_SRGAN_UF_4_176.ipynb)
 
 
 #### Hosted lambda function Link Here: [http://www.tsaimars.com.s3-website.ap-south-1.amazonaws.com/](http://www.tsaimars.com.s3-website.ap-south-1.amazonaws.com/)
@@ -17,3 +17,14 @@ Notebook Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Sessi
 #### Screenshot
 ---------
 ![](https://github.com/eip4-mars/EIP4P2/blob/master/Session8/srgan.jpg)
+
+
+## Neural style transfer
+
+Notebook link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session8/Sess8_neural_style_tutorial.ipynb)
+
+#### Input Image : 
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session8/neural_style_transfer_input.jpg)
+
+#### Output Image : 
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session8/neural_style_transfer_out.jpg)
