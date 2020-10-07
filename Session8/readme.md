@@ -10,10 +10,10 @@ Notebook Link : [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Sessi
 
 #### Steps:
 - Click on the [Link](http://www.tsaimars.com.s3-website.ap-south-1.amazonaws.com/)
-- Click on GAN on top Tab
+- Click on superResolution on top Tab
 - Warmup lambda if needed by clicking "Warm Up Lambda" and wait ~40 Seconds for Lambda Function to be ready
-- Click on "superResolution" Button
+- Click on "Generate SR Image" Button
 
 #### Screenshot
 ---------
-![](https://github.com/eip4-mars/EIP4P2/blob/master/Session6/gan_car.jpg)
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session8/srgan.jpg)
