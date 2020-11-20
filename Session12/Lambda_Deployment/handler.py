@@ -135,7 +135,7 @@ def transform_image(image_bytes):
                          transforms.ToTensor(),                           # convert the PIL Image to a tensor
                          transforms.Normalize((0.485, 0.456, 0.406),      # normalize image for pre-trained model
                                              (0.229, 0.224, 0.225))])
-        image = Image.open(io.BytesIO(image_bytes))
+        image = Image.open(io.BytesIO(image_bytes)).convert('RGB')
         return transform_test(image).unsqueeze(0)
     except Exception as e:
         print(repr(e))
