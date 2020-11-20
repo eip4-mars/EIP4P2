@@ -1,0 +1,66 @@
+# Welcome to Serverless!
+# Happy Coding!
+
+service: sess12-img-caption
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: ap-south-1
+  timeout: 60
+  environment:
+    S3_BUCKET: tsai-mars-session1
+    ENC_PATH: encoderdata.pkl
+    DEC_PATH: decoderdata.pkl
+    VOCAB_PATH : decoder_vocab.pickle
+    DEC_PARAM : decoder_input_params.pickle
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - s3:getObject
+      Resource: arn:aws:s3:::tsai-mars-session1/*
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+    strip: false
+    noDeploy:
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - setuptools
+      - six
+      - tensorboard
+    useStaticCache: true
+    useDownloadCache: true
+    cacheLocation: "./cache"
+
+ 
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+    - cache/**
+    - test/**
+    - __pytest_cache__/**
+    - model/**
+
+functions:
+  image_caption:
+    handler: handler.caption
+    memorySize: 3008
+    timeout: 60
+    events:
+      - http:
+          path: gen_caption
+          method: post
+          cors: true
+
+plugins:
+  - serverless-python-requirements
