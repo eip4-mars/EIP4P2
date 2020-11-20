@@ -30,6 +30,7 @@
   - requirements.txt
   - serverless.yml
   - package.json
+  - models.py
 
 - Deploy Model
 
