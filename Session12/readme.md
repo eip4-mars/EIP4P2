@@ -14,7 +14,7 @@ Group Members : Bikash Bhoi, Deepak Gowtham
 
 #### Screenshot
 ---------
-![](https://github.com/eip4-mars/EIP4P2/blob/master/Session5/hpe_UI.jpg)
+![](https://github.com/eip4-mars/EIP4P2/blob/master/Session12/ImageCaption.PNG)
 
 ## Notebook : 
 [Notebook](https://github.com/eip4-mars/EIP4P2/blob/master/Session12/EVA4P2S12_Image_Captioning.ipynb)
